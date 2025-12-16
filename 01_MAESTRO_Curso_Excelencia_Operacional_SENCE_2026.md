@@ -204,4 +204,37 @@ Se coordina con Capacitando Chile:
 
 ---
 
+---
+
+## 11. INTEGRACION CON ECOSISTEMA CARLOSVERGARACHILE
+
+Este proyecto SENCE 2026 es parte de un ecosistema integrado mas amplio de 12 repositorios.
+
+### Flujos de Integracion Principales:
+
+**A. Con SAM v3.0 - Plataforma Educativa Central**
+- Proyecto-Sence-2026 puede desplegarse como modulos especializados dentro de SAM v3.0
+- Reutiliza plantillas de course-module-standard
+- Usa payment-gateway-standard para monetizacion (si aplica)
+
+**B. Con Course Module Standard (CMS)**
+- Estructura de 4 modulos (40 horas) sigue estandar CMS
+- Rubricas de evaluacion son reutilizables
+- Plantillas de contenido aplican a otros cursos
+
+**C. Con Marketing Digital Standard**
+- Distribucion y posicionamiento de curso
+- SEO optimizado para busquedas de capacitacion
+- Analisis de demanda mediante seasonal-market-standard
+
+**D. Con Payment Gateway Standard** 
+- Si se monetiza, usa abstraccion unificada
+- Soporta Flow, PayPal, Mercado Pago, Global66
+
+### Documentacion de Referencia:
+
+- Ver [deploy-guide/ECOSYSTEM_ARCHITECTURE.md](https://github.com/CarlosVergaraChile/deploy-guide/blob/main/ECOSYSTEM_ARCHITECTURE.md)
+- Ver [course-module-standard](https://github.com/CarlosVergaraChile/course-module-standard) para plantillas
+- Ver [SAM v3.0](https://github.com/CarlosVergaraChile/SAM-v3.0-AI-Teacher) para integracion educativa
+
 **Estado del Proyecto:** Documento maestro completado. Listo para compartir con Sergio y Marcelo para revisión y ajustes según normativa de Capacitando Chile.
